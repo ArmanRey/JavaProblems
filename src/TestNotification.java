@@ -22,7 +22,7 @@ public class TestNotification {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String AUTH_KEY_FCM = "AAAAhcQ--H0:APA91bF4b0gNIh42IjqzAr-tUov0nSZ7_xarrP1xq9t4TDXWOzJWr3LqXXmR6UPRSgoz07Pn6N8JqkfYxPjyWG4AwEMw8enSmMt7nTesAbmWT79NfUlkBr-WMnN4QL00hDvGXN-wb4Vs";
+		String AUTH_KEY_FCM = "--H0:APA91bF4b0gNIh42IjqzAr-tUov0nSZ7_xarrP1xq9t4TDXWOzJWr3LqXXmR6UPRSgoz07Pn6N8JqkfYxPjyWG4AwEMw8enSmMt7nTesAbmWT79NfUlkBr-WMnN4QL00hDvGXN-wb4Vs";
 	    String API_URL_FCM = "https://fcm.googleapis.com/fcm/send";
         String FMCurl = API_URL_FCM;
         String authKey = AUTH_KEY_FCM;
@@ -44,7 +44,7 @@ public class TestNotification {
 	            JSONObject info = new JSONObject();
 	            info.put("title", "FCM Notificatoin Title"); // Notification title
 	            info.put("body", "Hello First Test notification"); // Notification body
-	            info.put("click_action", "com.careerlauncher.ai.ui.notification.NotificationActivity"); // Notification body	          
+	            info.put("click_action", "xx.xxxxxx.NotificationActivity"); // Notification body	          
 	           
 	            data.put("notification", info);
 	            System.out.println(data.toString());
